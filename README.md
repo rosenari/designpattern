@@ -77,7 +77,10 @@ Gof(Gang of Four)에서 처음으로 제시된 개념인데, 여러가지의 디
 
 ###### Proxy 패턴
 
-###### Iterator 패턴
+###### Iterator 패턴 - iterator와 iterable 프로토콜을 지키면서 연속된 데이터를 순회하는 패턴
+
+- 타입에 상관없이 모든 내용을 출력하는 작업에 좋다.
+- Generator : Iterator이면서 Iterable한 값을 반환하는 함수
 
 ###### Decoration 패턴
 
